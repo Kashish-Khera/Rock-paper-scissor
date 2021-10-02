@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.97);
+}
+
+h1 ,.vs {
+    font-size: 3.7rem;
+    ;
+    font-family: 'Monoton', cursive;
+    color: #6f6;
+    letter-spacing: 3px;
+    animation: pulseText 0.8s infinite alternate ease-in-out;
+}
+.vs
+{
+    font-size:2rem;
+    letter-spacing: 0px;;
+    padding:6px;
+}
+h2
+{
+    color: #6f6; 
+}
+
+@keyframes pulseText {
+    0% {
+        text-shadow: 0px 0px 8px rgba(0, 255, 0, 0.7);
+    }
+
+    100% {
+        text-shadow: 0px 0px 22px rgba(0, 255, 0, 1);
+    }
+}
+.shade
+{
+    color:#6f6;
+}
+
+#card {
+    background-color: black;
+    text-align: center;
+    color: #6f6;
+    animation: pulseBox 1s infinite alternate ease-in-out;
+    border: 0px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 255, 0, 0.6);
+}
+
+button {
+    background: transparent;
+    ;
+    outline: none;
+    ;
+    border: none;
+}
+
+span
+{
+    font-size:2rem;;
+}
+
+
+
+@keyframes pulseBox {
+    0% {
+        box-shadow: 0px 0px 10px 0px rgba(0, 255, 0, 0.6);
+    }
+
+    100% {
+        box-shadow: 0px 0px 18px 0px rgba(0, 255, 0, 0.9);
+    }
+}
